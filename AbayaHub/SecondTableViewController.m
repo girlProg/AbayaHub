@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 __FatimaGalaudu__. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "SecondTableViewController.h"
 
-@interface SecondViewController ()
+@interface SecondTableViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation SecondTableViewController
 
 - (void)viewDidLoad
 {
