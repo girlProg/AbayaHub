@@ -56,7 +56,7 @@
         NSError *error = nil;
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:&error];
         //probably have the wrong encoding here
-        NSString* newStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        NSString* newStr = [[NSString alloc] initWithData:jsonData encoding: NSUTF8StringEncoding];
         
         if (error!=nil) {
             NSLog(@"Error creating JSON Data = %@",error);
